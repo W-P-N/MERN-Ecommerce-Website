@@ -1,16 +1,16 @@
 
 const productCategory = [
-    { id : 1, label : "HP_Printer", value : "hp_printer"},
-    { id : 2, label : "thermal_printer", value : "thermal_printer"},
-    { id : 3, label : "toner_powder", value : "toner_powder"},
-    { id : 4, label : "barcode_stickers", value : "barcode_stickers"},
-    { id : 5, label : "barcode_printers", value : "barcode_printers"},
-    { id : 6, label : "cctv_camera", value : "cctv_camera"},
-    { id : 7, label : "paper_tags", value : "paper_tags"},
-    { id : 8, label : "barcode_label", value : "barcode_label"},
-    { id : 9, label : "barcode_ribbon", value : "barcode_ribbon"},
-    { id : 10, label : "Packaging_tape", value : "packaging_tape"},
-    { id : 11, label : "masking_tape", value : "masking_tape"},
+    { id : 1, label : "Printer", value : "Printer"},
+    { id : 2, label : "Thermal Printer", value : "Thermal Printer"},
+    { id : 3, label : "Toner Powder", value : "Toner Powder"},
+    { id : 4, label : "Barcode Stickers", value : "Barcode Stickers"},
+    { id : 5, label : "Barcode Printers", value : "Barcode Printers"},
+    { id : 6, label : "CCTV Camera", value : "Cctv Camera"},
+    { id : 7, label : "Paper Tags", value : "Paper Tags"},
+    { id : 8, label : "Barcode Label", value : "Barcode Label"},
+    { id : 9, label : "Barcode Ribbon", value : "Barcode Ribbon"},
+    { id : 10, label : "Packaging Tape", value : "Packaging Tape"},
+    { id : 11, label : "Masking Tape", value : "Masking Tape"},
 ]
 
 
