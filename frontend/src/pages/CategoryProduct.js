@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import productCategory from '../helpers/productCategory'
 // import VerticalCard from '../components/VerticalCard'
-import SummaryApi from '../common'
+import SummaryApi from '../common';
+import VerticalCard from './../components/VerticalCard.js'
 
 const CategoryProduct = () => {
     const [data,setData] = useState([])
@@ -11,6 +12,7 @@ const CategoryProduct = () => {
     const location = useLocation()
     const urlSearch = new URLSearchParams(location.search)
     const urlCategoryListinArray = urlSearch.getAll("category")
+    console.log(urlCategoryListinArray);
 
     const urlCategoryListObject = {}
     urlCategoryListinArray.forEach(el =>{
@@ -93,7 +95,7 @@ const CategoryProduct = () => {
     },[sortBy])
     
   return (
-    <div className='container mx-auto p-4'>
+    <div className='container mx-auto p-4 justify-between'>
 
        {/***desktop version */}
        <div className='hidden lg:grid grid-cols-[200px,1fr]'>
@@ -143,13 +145,13 @@ const CategoryProduct = () => {
             <div className='px-4'>
               <p className='font-medium text-slate-800 text-lg my-2'>Search Results : {data.length}</p>
 
-             {/* <div className='min-h-[calc(100vh-120px)] overflow-y-scroll max-h-[calc(100vh-120px)]'>
+             <div className='min-h-[calc(100vh-120px)] overflow-y-scroll max-h-[calc(100vh-120px)]'>
               {
                   data.length !== 0 && !loading && (
                     <VerticalCard data={data} loading={loading}/>
                   )
               }
-             </div> */}
+             </div>
             </div>
        </div>
        
