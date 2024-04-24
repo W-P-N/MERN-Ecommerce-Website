@@ -30,7 +30,7 @@ function App() {
 
   const fetchUserAddToCart = async()=>{
     const dataResponse = await fetch(SummaryApi.addToCartProductCount.url,{
-      method : SummaryApi.addToCartProductCount.method,
+      method : SummaryApi.addToCartProductCount.method,  
       credentials : 'include'
     })
 
@@ -67,4 +67,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;  

@@ -10,18 +10,18 @@ const Home = () => {
       <CategoryList/>
       <BannerProduct/>
 
-      <HorizontalCardProduct category={"hp_printer"} heading={"Top's HP  Printers"}/>
-      <HorizontalCardProduct category={"thermal_printer"} heading={"Thermal Printers"}/>
+      <HorizontalCardProduct category={"Printer"} heading={"Top's HP  Printers"}/>
+      <HorizontalCardProduct category={"Thermal Printer"} heading={"Thermal Printers"}/>
 
-      <VerticalCardProduct category={"toner_powder"} heading={"Toner Powder"}/>
-      <VerticalCardProduct category={"barcode_stickers"} heading={"Barcode-Stickers"}/>
-      <VerticalCardProduct category={"barcode_printers"} heading={"Barcode-Printers"}/>
-      <VerticalCardProduct category={"cctv_camera"} heading={"CCTV-Camera"}/>
-      <VerticalCardProduct category={"paper_tags"} heading={"Paper-Tags"}/>
-      <VerticalCardProduct category={"barcode_label"} heading={"Barcode-Label"}/>
-      <VerticalCardProduct category={"barcode_ribbon"} heading={"Barcode-Ribbon"}/>
-      <VerticalCardProduct category={"packaging_tape"} heading={"Packaging-Tape"}/>
-      <VerticalCardProduct category={"masking_tape"} heading={"Masking-Tape"}/>
+      <VerticalCardProduct category={"Toner Powder"} heading={"Toner Powder"}/>
+      <VerticalCardProduct category={"Barcode Stickers"} heading={"Barcode-Stickers"}/>
+      <VerticalCardProduct category={"Barcode Printers"} heading={"Barcode-Printers"}/>
+      <VerticalCardProduct category={"Cctv Camera"} heading={"CCTV-Camera"}/>
+      <VerticalCardProduct category={"Paper Tags"} heading={"Paper-Tags"}/>
+      <VerticalCardProduct category={"Barcode Label"} heading={"Barcode-Label"}/>
+      <VerticalCardProduct category={"Barcode Ribbon"} heading={"Barcode-Ribbon"}/>
+      <VerticalCardProduct category={"Packaging Tape"} heading={"Packaging-Tape"}/>
+      <VerticalCardProduct category={"Masking Tape"} heading={"Masking-Tape"}/>
     </div>
   )
 }
